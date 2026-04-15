@@ -8,7 +8,7 @@ import os
 # postgresql+psycopg2://user:password@localhost:5432/securechain
 DATABASE_URL = os.getenv(
     "SECURECHAIN_DATABASE_URL",
-    "postgresql+psycopg2://postgres:parvathy83@localhost:5432/securechain",
+    "postgresql+psycopg2://database:password@localhost:5432/securechain",
 )
 
 
